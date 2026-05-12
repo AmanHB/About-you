@@ -30,6 +30,33 @@ public class AboutYou {
       System.out.print("\nEnter your choice --> ");
    }
 
+      private static void waitForEnter() {
+      System.out.println("Press enter to continue...");
+      scanner.nextLine();
+   }
+
+   private static void family() {
+      System.out.println("Here is photo of my lovely \"Family\"");
+      System.out.println("\tTo the left is my grandma");
+      System.out.println("\tTo the Right of my grandma, is my sister she is only 11 years old");
+      System.out.println("\tTo the Right of my sister is my dad, he is a developer for starbucks");
+      System.out.println("\tTo the right of my dad, is my mom, she is a AI prompt engineer as well as an employe in mincrosoft");
+      JFrame var0 = showImage("Family.jpg");
+      waitForEnter();
+      var0.dispose();
+   }
+
+   private static void hobby() {
+      System.out.println("My favorite hobby is playing valorant in my free time!");
+      System.out.println("\tValorant is a stragetic game, 1 side plants a bomb and other defuse it");
+      System.out.println("\tI peaked at immortal which is only 3% of 1Million+ players");
+      System.out.println("\tI enjoy playing valorant");
+      JFrame var0 = showImage("VALO.jpg");
+      waitForEnter();
+      var0.dispose();
+   }
+
+
 
     
 }
