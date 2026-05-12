@@ -21,7 +21,7 @@ public class AboutYou {
       return var1;
    }
       public static void displayMenu() {
-      System.out.println("What would you like to learn about Sandy?");
+      System.out.println("What would you like to learn about Aman?");
       System.out.println("\tAmans <F>amily");
       System.out.println("\tAman's <H>obby");
       System.out.println("\tAman's <C>ulture");
