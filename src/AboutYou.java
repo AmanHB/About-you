@@ -56,7 +56,24 @@ public class AboutYou {
       var0.dispose();
    }
 
+   private static void traveling() {
+      System.out.println("My favorite thing to do during vacation is to travel and see the world");
+      System.out.println("\tThis photo was taken in yosemite national park");
+      System.out.println("\tThe photo showes a breath taking mountain");
+      System.out.println("\tMajority of our traveling is done near a national park our just nature overall");
+      JFrame var0 = showImage("Nature.jpg");
+      waitForEnter();
+      var0.dispose();
+   }
 
+   private static void culture() {
+      System.out.println("I was born in Ethiopia, Africa so our culture varies quite a bit");
+      System.out.println("The photo i am showing is our culture food called injera which is basically fermented bread in a sense");
+      System.out.println("We eat this on a daily baisis and I can never get used to it");
+      JFrame var0 = showImage("Injera.jpg");
+      waitForEnter();
+      var0.dispose();
+   }
 
     
 }
