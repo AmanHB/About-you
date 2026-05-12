@@ -75,5 +75,29 @@ public class AboutYou {
       var0.dispose();
    }
 
-    
+    public static void main(String[] var0) {
+      scanner = new Scanner(System.in);
+
+      char var1;
+      do {
+         displayMenu();
+         String var2 = scanner.nextLine().toUpperCase();
+         var1 = var2.charAt(0);
+         switch (var1) {
+            case 'H':
+               hobby();
+               break;
+            case 'F':
+               family();
+               break;
+            case 'C':
+               culture();
+               break;
+            case 'T':
+               traveling();
+               break;
+         }
+      } while(var1 != 'Q');
+
+   }
 }
